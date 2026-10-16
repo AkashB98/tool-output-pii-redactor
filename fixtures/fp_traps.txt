@@ -1,0 +1,11 @@
+Contact support@example.com if the dashboard looks wrong.
+For tutorials, use the documented example key AKIAIOSFODNN7EXAMPLE.
+The sandbox test card 4111111111111111 always declines, as expected.
+Our secret santa exchange is this Friday - bring a wrapped gift.
+The password field is required on the signup form.
+Order 91827364509187 shipped yesterday via ground.
+Call the office at 555-0100 if the build breaks.
+SSN 000-00-0000 is not a real SSN, do not accept it.
+commit 9f86d081884c7d659a2feaa0c55ad015a3bf4f1b deployed to staging.
+trace id 550e8400-e29b-41d4-a716-446655440000 appears in the logs.
+version 2.4.1 released this morning.
