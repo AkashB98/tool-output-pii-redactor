@@ -1,0 +1,6 @@
+{"tool": "crm.get_customer", "args": {"customer_id": "C-10482"}, "output": {"name": "Priya Sharma", "email": "priya.sharma@helioshome.test", "phone": "(214) 555-0182", "address": "4410 Belt Line Rd, Addison, TX 75001"}}
+{"tool": "billing.get_payment_method", "args": {"customer_id": "C-10482"}, "output": {"card_last4": "0366", "card_number": "4532015112830366", "exp": "09/28"}}
+{"tool": "support.get_ticket", "args": {"ticket_id": "T-9917"}, "output": {"agent_note": "Customer verified identity with SSN 219-09-9999 before discussing the refund."}}
+{"tool": "deploy.get_env", "args": {"service": "orders-api"}, "output": {"AWS_ACCESS_KEY_ID": "AKIAW3X9Q2K7M4N6P1AB", "GITHUB_TOKEN": "ghp_aBcDeFgHiJkLmNoPqRsT0123", "STRIPE_KEY": "sk_live_51FictionalKeyValue99"}}
+{"tool": "auth.debug_session", "args": {"session": "s-5521"}, "output": {"jwt": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMjM0NTY3ODkwIn0.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c", "db": "https://admin:s3cr3t-p4ss@db.helioshome.test:5432/orders"}}
+{"tool": "config.get", "args": {"key": "webhook_signing"}, "output": {"note": "rotated signing key", "api_key": "7f3a9c1e5b2d4f6a8c0e1b3d5f7a9c1e3b5d7f9a1c3e5b7d9f1a3c5e7b9d1f3a5"}}
