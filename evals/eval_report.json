@@ -1,0 +1,182 @@
+{
+  "all_pass": true,
+  "cases": {
+    "allowlist_custom": {
+      "got": [
+        [
+          "PAT-EMAIL",
+          "email"
+        ]
+      ],
+      "pass": true,
+      "want": [
+        [
+          "PAT-EMAIL",
+          "email"
+        ]
+      ]
+    },
+    "audit_chain": {
+      "entries": 10,
+      "pass": true
+    },
+    "fixture_findings": {
+      "got": [
+        [
+          "PAT-EMAIL",
+          "email",
+          110,
+          138
+        ],
+        [
+          "PAT-PHONE",
+          "phone",
+          151,
+          165
+        ],
+        [
+          "PAT-CARD",
+          "card",
+          344,
+          360
+        ],
+        [
+          "PAT-SSN",
+          "ssn",
+          506,
+          517
+        ],
+        [
+          "PAT-AWS-KEY",
+          "secret",
+          646,
+          666
+        ],
+        [
+          "PAT-GITHUB-TOKEN",
+          "secret",
+          686,
+          714
+        ],
+        [
+          "PAT-STRIPE-KEY",
+          "secret",
+          732,
+          761
+        ],
+        [
+          "PAT-JWT",
+          "secret",
+          846,
+          938
+        ],
+        [
+          "PAT-URL-CREDS",
+          "credentials",
+          956,
+          973
+        ],
+        [
+          "ENT-SECRET-CTX",
+          "secret",
+          1121,
+          1186
+        ]
+      ],
+      "pass": true,
+      "want": [
+        [
+          "PAT-EMAIL",
+          "email",
+          110,
+          138
+        ],
+        [
+          "PAT-PHONE",
+          "phone",
+          151,
+          165
+        ],
+        [
+          "PAT-CARD",
+          "card",
+          344,
+          360
+        ],
+        [
+          "PAT-SSN",
+          "ssn",
+          506,
+          517
+        ],
+        [
+          "PAT-AWS-KEY",
+          "secret",
+          646,
+          666
+        ],
+        [
+          "PAT-GITHUB-TOKEN",
+          "secret",
+          686,
+          714
+        ],
+        [
+          "PAT-STRIPE-KEY",
+          "secret",
+          732,
+          761
+        ],
+        [
+          "PAT-JWT",
+          "secret",
+          846,
+          938
+        ],
+        [
+          "PAT-URL-CREDS",
+          "credentials",
+          956,
+          973
+        ],
+        [
+          "ENT-SECRET-CTX",
+          "secret",
+          1121,
+          1186
+        ]
+      ]
+    },
+    "fixture_redacted_md5": {
+      "got": "cac77372ebc739de4f0bab31bff84d27",
+      "pass": true,
+      "want": "cac77372ebc739de4f0bab31bff84d27"
+    },
+    "fp_traps_clean": {
+      "got": [],
+      "pass": true,
+      "want": []
+    },
+    "private_key_fixture": {
+      "got": [
+        [
+          "PAT-PRIVATE-KEY",
+          "secret"
+        ]
+      ],
+      "md5_ok": true,
+      "pass": true,
+      "want": [
+        [
+          "PAT-PRIVATE-KEY",
+          "secret"
+        ]
+      ]
+    },
+    "streaming_determinism": {
+      "chunk_runs": 8,
+      "pass": true
+    }
+  },
+  "n_cases": 7
+}
